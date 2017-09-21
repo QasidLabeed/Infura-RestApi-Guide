@@ -53,7 +53,7 @@ Visual Studio
 
 ## Authors
 
-Qasid Labeed - QasidLabeed
+Qasid Labeed - [QasidLabeed](https://github.com/QasidLabeed)
 
 ## Acknowledgments
 
