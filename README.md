@@ -28,6 +28,7 @@ For GET request
 "eth_getTransactionByBlockNumberAndIndex","eth_getTransactionReceipt",
 "eth_getUncleByBlockHashAndIndex","eth_getUncleByBlockNumberAndIndex",
 "eth_getCompilers","eth_getLogs","eth_getWork","parity_pendingTransactions"
+
 For POST request
 
 "eth_sendRawTransaction","eth_estimateGas","eth_submitWork","eth_submitHashrate"
@@ -37,18 +38,24 @@ Just add Parameters in program.cs according to the requirements of method. Requi
 
 ## Functions Provided
 
-Get Json Object from the API
-Hex to DecimalString Converstion
-String to Ether balance in Wei
-Build With
+- Calling API through HttpWebRequest
+- Get the response through HttpWebRequest
+- The response is converted to JSON Object
+- The Result is converted to from Hexadecimal to Decimal
+- Nethereum is used to convert balance to wei
+- BigInteger is used to store the balance
+- BigRational is used to Divide the balance with 10^18 (Decimal places for ethereum)
 
-## Visual Studio
 
-##Authors
+## Build With
+
+Visual Studio
+
+## Authors
 
 Qasid Labeed - QasidLabeed
 
-##Acknowledgments
+## Acknowledgments
 
 - Hat tip to anyone who's code was used
 - Inspiration
